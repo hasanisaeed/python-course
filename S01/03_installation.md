@@ -9,4 +9,4 @@
             - اکستنشن [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
             - اکستنشن [Python Snippets](https://marketplace.visualstudio.com/items?itemName=frhtylcn.pythonsnippets)
             - اکستنشن [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-            - اکستنشن [لینک مفید](https://lightrun.com/vscode-python-extensions/)
+            - [لینک مفید](https://lightrun.com/vscode-python-extensions/)
