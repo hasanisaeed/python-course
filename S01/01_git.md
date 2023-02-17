@@ -88,7 +88,7 @@ git pull
 فرض کنیم میخواهیم از این ریپو یک کپی برای خودمان داشته باشیم. برای اینکار از گزینه `fork` یک کپی از این ریپو برای خودمان میگیریم و سپس میتوانیم تغییرات دلخواه خود را به آن اضافه کنیم.
 
 <p align="center">
-  <img alt="ّFork Repository" src="https://github.com/hasanisaeed/python-course/blob/main/S01/assets/images/fork_repo.PNG" width="300">
+  <img alt="ّFork Repository" src="https://github.com/hasanisaeed/python-course/blob/main/S01/assets/images/fork_repo.PNG">
   <br>
     <em>فورک کردن ریپو</em>
 </p>
