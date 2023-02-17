@@ -1,6 +1,8 @@
 # گیت دروازه ورود به دنیای اپن سورس
 
-![Git + Github](assets/images/git_github.jpg)
+<p align="center">
+  <img alt="ّgit + github" src="assets/images/git_github.jpg" height="200"> 
+</p>
 
 ---
 
