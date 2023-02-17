@@ -1,8 +1,8 @@
 # گیت دروازه ورود به دنیای اپن سورس
-- [گیت چیست؟]()
-- [نصب گیت]()
-- [دستورات پایه]()
-- [تعریف عملیات های مختلف در گیت]()
+- [گیت چیست؟](https://github.com/hasanisaeed/python-course/tree/main/S01#%DA%AF%DB%8C%D8%AA-%DA%86%DB%8C%D8%B3%D8%AA)
+- [نصب گیت](https://github.com/hasanisaeed/python-course/tree/main/S01#%D9%86%D8%B5%D8%A8-%DA%AF%DB%8C%D8%AA)
+- [دستورات پایه](https://github.com/hasanisaeed/python-course/tree/main/S01#%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D9%BE%D8%A7%DB%8C%D9%87)
+- [تعریف عملیات های مختلف در گیت](https://github.com/hasanisaeed/python-course/tree/main/S01#%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D9%87%D8%A7%DB%8C-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%AF%D8%B1-%DA%AF%DB%8C%D8%AA)
 
 ## گیت چیست؟
 
