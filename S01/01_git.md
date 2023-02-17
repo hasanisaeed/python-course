@@ -23,10 +23,11 @@
 
 ## نصب گیت
 
-- ابتدا در یکی از وبسایت های [Gitlab](https://gitlab.com) یا [Github](https://github.com) یا ... ثبت کنید
+- ابتدا در یکی از وبسایت های [Github](https://github.com) یا [Gitlab](https://gitlab.com) یا ... ثبت کنید
 - برنامه `git bash` را نصب کنید
+
 برای نصب گیت بر روی ویندوز ابتدا باید نرم افزار `git bash` را نصب کنیم.
-برای نصب بر روی [این لینک]((https://git-scm.com/downloads)) کلیک کنید.
+برای نصب بر روی [این لینک](https://git-scm.com/downloads) کلیک کنید.
 
 ---
 
