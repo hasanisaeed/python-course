@@ -1,7 +1,7 @@
 # گیت دروازه ورود به دنیای اپن سورس
 
 <p align="center">
-  <img alt="ّgit + github" src="assets/images/git_github.jpg" height="200"> 
+  <img alt="ّgit + github" src="assets/images/git_github.jpg"> 
 </p>
 
 ---
@@ -12,6 +12,8 @@
 - [تعریف عملیات های مختلف در گیت](#تعریف-عملیات-های-مختلف-در-گیت)
     - [فورک (Fork) کردن ریپو](#فورک-fork-کردن-ریپو)
     - [ارسال Pull Request (PR)](#ارسال-pull-request-pr)
+
+---
 
 ## گیت چیست؟
 
