@@ -4,7 +4,6 @@
 
 - [دستورات شرطی](01_conditional.ipynb)
 - [حلقه ها](02_loops.ipynb)
-    - [مفهوم بلاک و indent](02_loops.ipynb#)
     - [مفهوم Iterator](02_loops.ipynb#)
     - [حلقه while](02_loops.ipynb#)
     - [حلقه for](02_loops.ipynb#)
