@@ -1,7 +1,7 @@
 # گیت دروازه ورود به دنیای اپن سورس
 
 <p align="center">
-  <img alt="ّgit + github" src="assets/images/git_github.jpg"> 
+  <img alt="ّgit + github" src="https://raw.githubusercontent.com/hasanisaeed/python-course/main/S01/assets/images/git_github.jpg"> 
 </p>
 
 ---
@@ -109,7 +109,7 @@ git pull
 فرض کنیم میخواهیم از این ریپو یک کپی برای خودمان داشته باشیم. برای اینکار از گزینه `fork` یک کپی از این ریپو برای خودمان میگیریم و سپس میتوانیم تغییرات دلخواه خود را به آن اضافه کنیم.
 
 <p align="center">
-  <img alt="ّFork Repository" src="https://github.com/hasanisaeed/python-course/blob/main/S01/assets/images/fork_repo.PNG">
+  <img alt="ّFork Repository" src="https://raw.githubusercontent.com/hasanisaeed/python-course/main/S01/assets/images/fork_repo.PNG">
   <br>
     <em>فورک کردن ریپو</em>
 </p>

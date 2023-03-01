@@ -1,7 +1,7 @@
 # آشنایی با pip
 
 <p align="center">
-  <img alt="ّgit + github" src="images/pip.png"> 
+  <img alt="ّgit + github" src="https://raw.githubusercontent.com/hasanisaeed/python-course/main/S02/images/pip.png"> 
 </p>
 
 ---
