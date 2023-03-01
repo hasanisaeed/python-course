@@ -1,0 +1,3 @@
+"""
+    Remove background from image
+"""
