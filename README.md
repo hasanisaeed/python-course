@@ -15,7 +15,7 @@
     - آشنایی با پکیج منیجر پایتون
     - پروژه #1
 - [جلسه سوم](S03)
-    - list و dictionary comprehension 
+    - توانایی کار با list و dictionary comprehension 
     - معرفی توابع
     - توابع یک خطی
     - توابع بسیار مهم  map, zip, filter
