@@ -1,4 +1,4 @@
-## جلسه سوم
+## جلسه چهارم
 
 - [مرور توابع](01_functions.ipynb)
 - [lambda function](02_lambda.ipynb)
