@@ -11,6 +11,3 @@ __pycache__
 
 # ignore txt files and images
 *.txt
-*.png
-*.jpg
-*.jpeg
