@@ -23,7 +23,7 @@
     - تابع یک خطی یا lambda function
     - توابع مهم map, zip, filter
 
-- [جلسه پنجم - پروژه شماره یک](S05):
+- [جلسه پنجم](S05):
     - کلاس ها در پایتون
     - Functional Programming
     
