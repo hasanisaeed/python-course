@@ -1,5 +1,7 @@
 import cv2
 
+# اگه از وب کم لبتاتون استفاده میخواین کنین مقدار ورودی کلاس رو صفر بذارین
+
 cam = cv2.VideoCapture("rtsp://admin:123456@192.168.1.120:554/stream1")
 
 # data = cam.read()
