@@ -30,24 +30,26 @@ parser.add_argument('-t', '--target', help='replace this face', dest='target_pat
 parser.add_argument('-o', '--output', help='save output to this file', dest='output_file')
 parser.add_argument('--keep-fps', help='maintain original fps', dest='keep_fps', action='store_true', default=False)
 parser.add_argument('--gpu', help='use gpu', dest='gpu', action='store_true', default=False)
-parser.add_argument('--keep-frames', help='keep frames directory', dest='keep_frames', action='store_true', default=False)
+parser.add_argument('--keep-frames', help='keep frames directory', dest='keep_frames', action='store_true',
+                    default=False)
 
 for name, value in vars(parser.parse_args()).items():
     args[name] = value
 
-sep = "/" # used for filepaths e.g. /root/path/output.mp4
+sep = "/"  # used for filepaths e.g. /root/path/output.mp4
 if sys.platform.startswith("win") or os.name == 'nt':
-    sep = "/" # for windows
+    sep = "/"  # for windows
+
 
 def start_processing():
     if args['gpu']:
         process_video(args['source_img'], args["frame_paths"])
         return
     frame_paths = args["frame_paths"]
-    n = len(frame_paths)//(psutil.cpu_count()-1)
+    n = len(frame_paths) // (psutil.cpu_count() - 1)
     processes = []
     for i in range(0, len(frame_paths), n):
-        p = pool.apply_async(process_video, args=(args['source_img'], frame_paths[i:i+n],))
+        p = pool.apply_async(process_video, args=(args['source_img'], frame_paths[i:i + n],))
         processes.append(p)
     for p in processes:
         p.get()
@@ -68,7 +70,8 @@ def toggle_fps_limit():
 
 
 def save_file():
-   args['output_file'] = asksaveasfilename(initialfile='output.mp4', defaultextension=".mp4", filetypes=[("All Files","*.*"),("Videos","*.mp4")])
+    args['output_file'] = asksaveasfilename(initialfile='output.mp4', defaultextension=".mp4",
+                                            filetypes=[("All Files", "*.*"), ("Videos", "*.mp4")])
 
 
 def start():
@@ -80,7 +83,7 @@ def start():
         print("\n[WARNING] Please select a video/image to swap face in.")
         return
     global pool
-    pool = mp.Pool(psutil.cpu_count()-1)
+    pool = mp.Pool(psutil.cpu_count() - 1)
     target_path = args['target_path']
     test_face = get_face(cv2.imread(args['source_img']))
     if not test_face:
@@ -136,7 +139,8 @@ if __name__ == "__main__":
 
     # FPS limit checkbox
     limit_fps = tk.IntVar()
-    fps_checkbox = tk.Checkbutton(window, text="Limit FPS to 30", variable=limit_fps, command=toggle_fps_limit, font=("Arial", 8))
+    fps_checkbox = tk.Checkbutton(window, text="Limit FPS to 30", variable=limit_fps, command=toggle_fps_limit,
+                                  font=("Arial", 8))
     fps_checkbox.pack(side=tk.BOTTOM)
     fps_checkbox.select()
 
