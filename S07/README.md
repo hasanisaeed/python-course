@@ -11,7 +11,7 @@
 ```
 pip install -r requirements.txt
 ```
-4. این فایل [onnx](https://drive.google.com/file/d/1eu60OrRtn4WhKrzM4mQv4F3rIuyUXqfl/view?usp=drive_link) رو دانلود کنین و کنار فایل   بذارین`run.py`
+4. این فایل [onnx](https://drive.google.com/file/d/1eu60OrRtn4WhKrzM4mQv4F3rIuyUXqfl/view?usp=drive_link) رو دانلود کنین و کنار فایل `run.py` بذارین.
 5. برای اجرای برنامه هم به راحتی در فولدری که فایل `run.py` قرار داره، دستور زیر رو بزنین
    
    `python3 run.py`
