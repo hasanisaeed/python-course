@@ -1,5 +1,4 @@
 .venv
 *.pyc
 __pycache__
-*.mp4
 *.onnx
