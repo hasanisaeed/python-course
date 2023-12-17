@@ -3,5 +3,5 @@ opencv-python==4.8.1.78
 onnx==1.14.1
 onnxruntime==1.15.1
 insightface==0.7.3
-psutil==5.9.5
+psutil==5.9.7
 tk==0.1.0
